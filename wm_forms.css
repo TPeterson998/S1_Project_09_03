@@ -22,7 +22,7 @@ fieldset {
 }
 
 /* This sets up the legend so that it can have a background color and a certain width */
-fieldset legend {
+legend {
     background-color: rgb(232, 232, 232);
     width: 100%;
     margin: 2px 0px 2px 0px;
@@ -76,6 +76,24 @@ textarea {
 
 /* Placeholder Styles */
 /* This sets up the placeholder text color and font size */
+textarea::-webkit-placeholder {
+    background-color: rgb(255, 255, 191);
+    color: rgb(255, 151, 151);
+    font-size: 1.5em;
+}
+
+textarea::-moz-placeholder {
+    background-color: rgb(255, 255, 191);
+    color: rgb(255, 151, 151);
+    font-size: 1.5em;
+}
+
+textarea::-ms-placeholder {
+    background-color: rgb(255, 255, 191);
+    color: rgb(255, 151, 151);
+    font-size: 1.5em;
+}
+
 textarea::placeholder {
     background-color: rgb(255, 255, 191);
     color: rgb(255, 151, 151);

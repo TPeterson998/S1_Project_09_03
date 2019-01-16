@@ -72,7 +72,7 @@
     <section>
         <h1>CSS Demo</h1>
         <!-- This is the form -->
-        <form action="">
+        <form>
             <!-- This sets up a text box with a placeholder that is automaticly in focus-->
             <textarea name="sampleText" id="sampleBox" cols="30" rows="10" placeholder="Enter sample text and press the Tab key"
                 tabindex="1" wrap="hard" autofocus></textarea>
@@ -103,6 +103,12 @@
                         <option value="tahoma">Tahoma</option>
                         <option value="‘times new roman’">Times New Roman</option>
                     </optgroup>
+                </select>
+                <label for="fontstyle">Font Style</label>
+                <select name="fontstyle" id="fontstyle">
+                    <option value="normal">Normal</option>
+                    <option value="italic">Italic</option>
+                    <option value="oblique">Oblique</option>
                 </select>
                 <label for="fontweight">Font Weight</label>
                 <select name="fontweight" id="fontweight">
